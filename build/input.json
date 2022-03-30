@@ -1,0 +1,18 @@
+{
+    "gromacs": {
+        "mdrun": "",
+        "temperature": "310",
+        "pressure": "1.0"
+    },
+    "bilayer": {
+        "template": "step5_input.gro",
+        "toppar": "toppar",
+        "lipids": "POPC,POPE",
+        "additives": "CHL1"
+    },
+    "peptides": {
+        "peptide1": "AGYLLPKINLKPLAKLPKKIL.pdb",
+        "peptide2": "FFHHIFRGIVHVGKTIHRLVTG.pdb",
+        "peptide3": "FFSLIPSLVGGLISAFK.pdb"
+    }
+}

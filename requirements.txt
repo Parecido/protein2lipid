@@ -1,0 +1,5 @@
+gromacs>=2018
+gromacswrapper==0.8.2
+mdanalysis==2.1.0
+networkx==2.7.1
+numpy==1.22.3

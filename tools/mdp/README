@@ -1,0 +1,53 @@
+#!/bin/bash
+
+gmx grompp -f step6.0_minimization.mdp -o step6.0_minimization.tpr -c step5_input.gro -r step5_input.gro -p topol.top
+gmx mdrun -v -deffnm step6.0_minimization
+
+gmx grompp -f step6.1_equilibration.mdp -o step6.1_equilibration.tpr -c step6.0_minimization.gro -r step5_input.gro -p topol.top
+gmx mdrun -v -deffnm step6.1_equilibration
+
+gmx grompp -f step6.2_equilibration.mdp -o step6.2_equilibration.tpr -c step6.1_equilibration.gro -r step5_input.gro -p topol.top
+gmx mdrun -v -deffnm step6.2_equilibration
+
+gmx grompp -f step6.3_equilibration.mdp -o step6.3_equilibration.tpr -c step6.2_equilibration.gro -r step5_input.gro -p topol.top
+gmx mdrun -v -deffnm step6.3_equilibration
+
+gmx grompp -f step6.4_equilibration.mdp -o step6.4_equilibration.tpr -c step6.3_equilibration.gro -r step5_input.gro -p topol.top
+gmx mdrun -v -deffnm step6.4_equilibration
+
+gmx grompp -f step6.5_equilibration.mdp -o step6.5_equilibration.tpr -c step6.4_equilibration.gro -r step5_input.gro -p topol.top
+gmx mdrun -v -deffnm step6.5_equilibration
+
+gmx grompp -f step6.6_equilibration.mdp -o step6.6_equilibration.tpr -c step6.5_equilibration.gro -r step5_input.gro -p topol.top
+gmx mdrun -v -deffnm step6.6_equilibration
+
+gmx grompp -f step7_production.mdp -o step7_1.tpr -c step6.6_equilibration.gro -p topol.top
+gmx mdrun -v -deffnm step7_1
+
+gmx grompp -f step7_production.mdp -o step7_2.tpr -c step7_1.gro -t step7_1.cpt -p topol.top
+gmx mdrun -v -deffnm step7_2
+
+gmx grompp -f step7_production.mdp -o step7_3.tpr -c step7_2.gro -t step7_2.cpt -p topol.top
+gmx mdrun -v -deffnm step7_3
+
+gmx grompp -f step7_production.mdp -o step7_4.tpr -c step7_3.gro -t step7_3.cpt -p topol.top
+gmx mdrun -v -deffnm step7_4
+
+gmx grompp -f step7_production.mdp -o step7_5.tpr -c step7_4.gro -t step7_4.cpt -p topol.top
+gmx mdrun -v -deffnm step7_5
+
+gmx grompp -f step7_production.mdp -o step7_6.tpr -c step7_5.gro -t step7_5.cpt -p topol.top
+gmx mdrun -v -deffnm step7_6
+
+gmx grompp -f step7_production.mdp -o step7_7.tpr -c step7_6.gro -t step7_6.cpt -p topol.top
+gmx mdrun -v -deffnm step7_7
+
+gmx grompp -f step7_production.mdp -o step7_8.tpr -c step7_7.gro -t step7_7.cpt -p topol.top
+gmx mdrun -v -deffnm step7_8
+
+gmx grompp -f step7_production.mdp -o step7_9.tpr -c step7_8.gro -t step7_8.cpt -p topol.top
+gmx mdrun -v -deffnm step7_9
+
+gmx grompp -f step7_production.mdp -o step7_10.tpr -c step7_9.gro -t step7_9.cpt -p topol.top
+gmx mdrun -v -deffnm step7_10
+

@@ -1,0 +1,253 @@
+[ atomtypes ]
+LcD     LcD          12.01    0.0000  A     3.39967e-01   4.57730e-01 ; 1.91  0.1094 ;lipid14 POPC.itp from NMRlipids added by Kri 150130
+LhL     LhL          1.008    0.0000  A     2.60142e-01   4.18400e-02 ; 1.46  0.0100 ;lipid14 POPC.itp from NMRlipids added by Kri 150130
+LcC     LcC          12.01    0.0000  A     3.39967e-01   2.92880e-01 ; 1.91  0.0700 ;lipid14 POPC.itp from NMRlipids added by Kri 150130
+LoC     LoC          16.00    0.0000  A     2.93997e-01   5.85760e-01 ; 1.65  0.1400 ;lipid14 POPC.itp from NMRlipids added by Kri 150130
+LoS     LoS          16.00    0.0000  A     2.93997e-01   5.02080e-01 ; 1.65  0.1200 ;lipid14 POPC.itp from NMRlipids added by Kri 150130
+LcA     LcA          12.01    0.0000  A     3.39967e-01   4.57730e-01 ; 1.91  0.1094 ;lipid14 POPC.itp from NMRlipids added by Kri 150130
+LhE     LhE          1.008    0.0000  A     2.47135e-01   6.56888e-02 ; 1.39  0.0157 ;lipid14 POPC.itp from NMRlipids added by Kri 150130
+LoT     LoT          16.00    0.0000  A     2.93997e-01   5.02080e-01 ; 1.65  0.1200 ;lipid14 POPC.itp from NMRlipids added by Kri 150130
+LpA     LpA          30.97    0.0000  A     3.74177e-01   8.36800e-01 ; 2.10  0.2000 ;lipid14 POPC.itp from NMRlipids added by Kri 150130
+LhX     LhX          1.008    0.0000  A     1.95998e-01   6.56888e-02 ; 1.10  0.0157 ;lipid14 POPC.itp from NMRlipids added by Kri 150130
+LnA     LnA          14.01    0.0000  A     3.25000e-01   7.11280e-01 ; 1.82  0.1700 ;lipid14 POPC.itp from NMRlipids added by Kri 150130
+LoP     LoP          16.00    0.0000  A     2.93997e-01   5.85760e-01 ; 1.65  0.1400 ;lipid14 POPC.itp from NMRlipids added by Kri 150130
+LcB     LcB          12.01    0.0000  A     3.39967e-01   3.59824e-01 ; 1.91  0.0860 ;lipid14 POPC.itp from NMRlipids added by Kri 150130
+LhB     LhB          1.008    0.0000  A     2.22725e-01   2.92880e-02 ; 1.25  0.0070 ;lipid14 POPC.itp from NMRlipids added by Kri 150130
+LhN     LhN          1.008    0.0000  A     1.06908e-01   6.56888e-02 ; 0.60  0.0157 ;lipid14 from lipid.dat for PE ; added by Kri 150130
+LhA     LhA          1.008    0.0000  A     2.64976e-01   6.56888e-02 ; 1.487 0.0157 ;lipid14 from Madej2015 for CHOL ; added by Kri 150929
+LhO     LhO          1.008    0.0000  A     0.00000e+00   0.00000e+00 ; 0.000 0.000  ;lipid14 from Madej2015 for CHOL ; added by Kri 150929
+LoH     LoH          16.00    0.0000  A     3.07000e-01   8.80335e-01 ;  1.721 0.2104;lipid14 from Madej2015 for CHOL ; added by Kri 150929
+ cD       cD          0.00000  0.00000   A     3.39967e-01   4.57730e-01 ; 1.91  0.1094 ; for popc
+ hL       hL          0.00000  0.00000   A     2.60142e-01   4.18400e-02 ; 1.46  0.0100
+ cC       cC          0.00000  0.00000   A     3.39967e-01   2.92880e-01 ; 1.91  0.0700
+ oC       oC          0.00000  0.00000   A     2.93997e-01   5.85760e-01 ; 1.65  0.1400
+ oS       oS          0.00000  0.00000   A     2.93997e-01   5.02080e-01 ; 1.65  0.1200
+ cA       cA          0.00000  0.00000   A     3.39967e-01   4.57730e-01 ; 1.91  0.1094
+ hE       hE          0.00000  0.00000   A     2.47135e-01   6.56888e-02 ; 1.39  0.0157
+ oT       oT          0.00000  0.00000   A     2.93997e-01   5.02080e-01 ; 1.65  0.1200
+ pA       pA          0.00000  0.00000   A     3.74177e-01   8.36800e-01 ; 2.10  0.2000
+ hX       hX          0.00000  0.00000   A     1.95998e-01   6.56888e-02 ; 1.10  0.0157
+ nA       nA          0.00000  0.00000   A     3.25000e-01   7.11280e-01 ; 1.82  0.1700
+ oP       oP          0.00000  0.00000   A     2.93997e-01   5.85760e-01 ; 1.65  0.1400
+ cB       cB          0.00000  0.00000   A     3.39967e-01   3.59824e-01 ; 1.91  0.0860
+ hB       hB          0.00000  0.00000   A     2.22725e-01   2.92880e-02 ; 1.25  0.0070
+
+ hA       hA          0.00000  0.00000   A     2.64953e-01   6.56888e-02 ; 1.49  0.0157
+; cB       cB          0.00000  0.00000   A     3.39967e-01   3.59824e-01 ; 1.91  0.0860
+; cD       cD          0.00000  0.00000   A     3.39967e-01   4.57730e-01 ; 1.91  0.1094
+ oH       oH          0.00000  0.00000   A     3.06647e-01   8.80314e-01 ; 1.72  0.2104
+ hO       hO          0.00000  0.00000   A     0.00000e+00   0.00000e+00 ; 0.00  0.0000
+ 
+[ bondtypes ]
+; i    j  func       b0          kb
+LcA     LcB     1       0.1508  274721  ; added by Kri ;        Lipid11 v1.0 (GAFF c3-c2) ; Madej2015
+LcA     LcD     1       0.1535  253634  ; added by Kri ;        Lipid14 CHL  (GAFF c3-c3) ; Madej2015
+LcA     LhA     1       0.1092  282253  ; added by Kri ;        Lipid11 v1.0 (GAFF c3-hc) ; Madej2015
+LcA     LoH     1       0.1426  262839  ; added by Kri ;        Lipid11 v1.0 (GAFF c3-oh) ; Madej2015
+LhO     LoH     1       0.0974  309281  ; added by Kri ;        Lipid11 v1.0 (GAFF ho-oh) ; Madej2015
+LcA     LcA     1       0.1535  253634  ; added by Kri ;        Lipid11  v1.0 (GAFF c3-c3)
+LcA     LhE     1       0.1093  281081  ; added by Kri ;        Lipid11  v1.0 (GAFF c3-h1)
+LcA     LhX     1       0.1091  283424  ; added by Kri ;        Lipid11  v1.0 (GAFF c3-hx)
+LcA     LnA     1       0.1499  245684  ; added by Kri ;        Lipid11  v1.0 (GAFF c3-n4)
+LcA     LoS     1       0.1439  252295  ; added by Kri ;        Lipid11  v1.0 (GAFF c3-os)
+LcA     LoT     1       0.1439  252295  ; added by Kri ;        Lipid11  v1.0 (GAFF c3-os)
+LcB     LcB     1       0.1324  493461  ; added by Kri ;        Lipid11  v1.0 (GAFF c2-c2)
+LcB     LhB     1       0.1087  288110  ; added by Kri ;        Lipid11  v1.0 (GAFF c2-ha)
+LcC     LoC     1       0.1214  542246  ; added by Kri ;        Lipid11  v1.0 (GAFF c -o )
+LcC     LoS     1       0.1343  344176  ; added by Kri ;        Lipid11  v1.0 (GAFF c -os)
+LcD     LcB     1       0.1508  274721  ; added by Kri ;        Lipid14  v2.0 (GAFF c3-c2)
+LcD     LcC     1       0.1508  274721  ; added by Kri ;        Lipid14  v2.0 (GAFF c3-c )
+LcD     LcD     1       0.1535  253634  ; added by Kri ;        Lipid14  v2.0 (GAFF c3-c3)
+LcD     LhL     1       0.1092  282253  ; added by Kri ;        Lipid14  v2.0 (GAFF c3-hc)
+LhN     LnA     1       0.1033  308779  ; added by Kri ;        Lipid11  v1.0 (GAFF hn-n4)
+LoP     LpA     1       0.1481  408107  ; added by Kri ;        Lipid11  v1.0 (GAFF o -p5)
+LoT     LpA     1       0.1602  286604  ; added by Kri ;        Lipid11  v1.0 (GAFF os-p5)
+
+
+
+[ angletypes ]
+;  i    j    k  func       th0       cth
+LcD     LcA     LoT     1       108.420 567.183 ; added by Kri ; copy of Lipid11  v1.0 (GAFF c3-c3-os) for miltefosine
+LcD     LcA     LhE     1       110.050 388.024 ; added by Kri ; copy of Lipid14  v2.0 (GAFF c3-c3-hc) for miltefosine
+LcA     LcA     LcB     1       111.440 531.619  ;  Lipid11 v1.0 (GAFF c3-c3-c2)        ; added by Kri; Madej2015
+LcA     LcA     LcD     1       110.630 528.941  ;  Lipid14 CHL  (GAFF c3-c3-c3)        ; added by Kri; Madej2015
+LcA     LcA     LhA     1       110.050 388.024  ;  Lipid11 v1.0 (GAFF c3-c3-hc)        ; added by Kri; Madej2015
+LcA     LcA     LoH     1       109.430 566.681  ;  Lipid11 v1.0 (GAFF c3-c3-oh)        ; added by Kri; Madej2015
+LcA     LcB     LcA     1       116.520 524.674  ;  Lipid11 v1.0 (GAFF c3-c2-c3)        ; added by Kri; Madej2015
+LcA     LcB     LcB     1       123.420 538.313  ;  Lipid11 v1.0 (GAFF c3-c2-c2)        ; added by Kri; Madej2015
+LcA     LcB     LhB      1       117.300 382.083  ;  Lipid11 v1.0 (GAFF c3-c2-ha)        ; added by Kri; Madej2015
+LcA      LcD      LhL     1       110.050 388.024  ;  Lipid14 CHL  (GAFF c3-c3-hc)        ; added by Kri; Madej2015
+LcA      LcD      LcD     1       110.630 528.941  ;  Lipid14 CHL  (GAFF c3-c3-c3)        ; added by Kri; Madej2015
+LcA     LoH     LhO     1       108.160 394.049  ;  Lipid11 v1.0 (GAFF c3-oh-ho)        ; added by Kri; Madej2015
+LcB     LcA     LhA     1       110.490 393.547  ;  Lipid11 v1.0 (GAFF c2-c3-hc)        ; added by Kri; Madej2015
+LcD      LcA     LhA     1       110.050 388.024  ;  Lipid14 CHL  (GAFF c3-c3-hc)        ; added by Kri; Madej2015
+LhA     LcA     LhA     1       108.350 329.95   ;  Lipid11 v1.0 (GAFF hc-c3-hc)        ; added by Kri; Madej2015
+LhE      LcA     LoH     1       109.880 426.517  ;  Lipid11 v1.0 (GAFF ha-c3-oh)        ; added by Kri; Madej2015
+LcA     LcA     LcA     1       110.630 528.941 ; added by Kri ;        Lipid11  v1.0 (GAFF c3-c3-c3)
+LcA     LcA     LhE     1       110.070 387.94  ; added by Kri ;        Lipid11  v1.0 (GAFF c3-c3-h1)
+LcA     LcA     LhX     1       111.740 385.095 ; added by Kri ;        Lipid11  v1.0 (GAFF c3-c3-hx)
+LcA     LcA     LnA     1       114.320 539.318 ; added by Kri ;        Lipid11  v1.0 (GAFF c3-c3-n4)
+LcA     LcA     LoS     1       108.420 567.183 ; added by Kri ;        Lipid11  v1.0 (GAFF c3-c3-os)
+LcA     LcA     LoT     1       108.420 567.183 ; added by Kri ;        Lipid11  v1.0 (GAFF c3-c3-os)
+LcA     LnA     LcA     1       110.640 525.845 ; added by Kri ;        Lipid11  v1.0 (GAFF c3-n4-c3)
+LcA     LnA     LhN     1       110.110 386.518 ; added by Kri ;        Lipid11  v1.0 (GAFF c3-n4-hn)
+LcA     LoS     LcC     1       115.140 532.456 ; added by Kri ;        Lipid11  v1.0 (GAFF c3-os-c )
+LcA     LoT     LpA     1       118.000 656.721 ; added by Kri ;        Lipid11  v1.0 (GAFF c3-os-p5)
+LcB     LcB     LhB     1       120.940 418.735 ; added by Kri ;        Lipid11  v1.0 (GAFF c2-c2-ha)
+LcB     LcD     LhL     1       110.490 393.547 ; added by Kri ;        Lipid14  v2.0 (GAFF c2-c3-hc)
+LcC     LcD     LhL     1       109.680 394.97  ; added by Kri ;        Lipid14  v2.0 (GAFF c -c3-hc)
+LcD     LcB     LcB     1       123.420 538.313 ; added by Kri ;        Lipid14  v2.0 (GAFF c3-c2-c2)
+LcD     LcB     LhB     1       117.300 382.083 ; added by Kri ;        Lipid14  v2.0 (GAFF c3-c2-ha)
+LcD     LcC     LoC     1       123.110 569.275 ; added by Kri ;        Lipid14  v2.0 (GAFF c3-c -o )
+LcD     LcC     LoS     1       111.960 579.568 ; added by Kri ;        Lipid14  v2.0 (GAFF c3-c -os)
+LcD     LcD     LcB     1       111.440 531.619 ; added by Kri ;        Lipid14  v2.0 (GAFF c3-c3-c2)
+LcD     LcD     LcC     1       110.530 533.795 ; added by Kri ;        Lipid14  v2.0 (GAFF c3-c3-c )
+LcD     LcD     LcD     1       110.630 528.941 ; added by Kri ;        Lipid14  v2.0 (GAFF c3-c3-c3)
+LcD     LcD     LhL     1       110.050 388.024 ; added by Kri ;        Lipid14  v2.0 (GAFF c3-c3-hc)
+LhE     LcA     LhE     1       109.550 327.858 ; added by Kri ;        Lipid11  v1.0 (GAFF h1-c3-h1)
+LhE     LcA     LoS     1       108.820 425.429 ; added by Kri ;        Lipid11  v1.0 (GAFF h1-c3-os)
+LhE     LcA     LoT     1       108.820 425.429 ; added by Kri ;        Lipid11  v1.0 (GAFF h1-c3-os)
+LhL     LcD     LhL     1       108.350 329.95  ; added by Kri ;        Lipid14  v2.0 (GAFF hc-c3-hc)
+LhN     LnA     LhN     1       108.110 339.071 ; added by Kri ;        Lipid11  v1.0 (GAFF hn-n4-hn)
+LhX     LcA     LhX     1       110.740 326.687 ; added by Kri ;        Lipid11  v1.0 (GAFF hx-c3-hx)
+LhX     LcA     LnA     1       107.910 410.199 ; added by Kri ;        Lipid11  v1.0 (GAFF hx-c3-n4)
+LoC     LcC     LoS     1       123.330 635.382 ; added by Kri ;        Lipid11  v1.0 (GAFF o -c -os)
+LoP     LpA     LoP     1       115.800 385.012 ; added by Kri ;        Lipid11  v1.0 (GAFF o -p5-o )
+LoP     LpA     LoT     1       116.090 368.276 ; added by Kri ;        Lipid11  v1.0 (GAFF o -p5-os)
+LoT     LpA     LoT     1       101.770 379.656 ; added by Kri ;        Lipid11  v1.0 (GAFF os-p5-os)
+
+[ dihedraltypes ] ; improper
+;i  j   k  l     func      phase      kd      pn
+LcD     LcD     LcA     LhE      9       0.0     0.66944         3       ; added by Kri ; from Madej2015; copy of cD cD LcA LhA SCEE=1.2 SCNB=2.0 Lipid14 CHL  (GAFF c3-c3-c3-hc) for miltefosine
+LcD     LcD     LcA     LoT     9       0.0     0.65103         3       ; added by Kri ; copy of LcA LcA LcA oT SCEE=1.2 SCNB=2.0 Lipid11  v1.0 (GAFF X -c3-c3-X ) for miltefosine
+LcD     LcA     LoT     LpA     9       0.0     1.60373         3       ; added by Kri ; copy of LcA LcA oT pA SCEE=1.2 SCNB=2.0 Lipid11  v1.0 (GAFF X -c3-os-X ) for miltefosine
+LhL     LcD     LcA     LoT     9       0.0     0               3       ; added by Kri ;copy of hE LcA LcA oT SCEE=1.2 SCNB=2.0 Lipid11  v1.0 (GAFF h1-c3-c3-os) for miltefosine
+LhL     LcD     LcA     LoT     9       0.0     1.04600         1       ; added by Kri ;copy of hE LcA LcA oT SCEE=1.2 SCNB=2.0 Lipid11  v1.0 (GAFF h1-c3-c3-os) for miltefosine
+LhL     LcD     LcA     LhE     9       0.0     0.62760         3       ; added by Kri ; copy of hL cD LcA hE SCEE=1.2 SCNB=2.0 Lipid14  v2.0 (GAFF hc-c3-c3-hc) for miltefosine
+LcA     LcA     LcA     LcA     9       0.0     0.75312         3       ; added by Kri ; from Madej2015;          SCEE=1.2 SCNB=2.0 Lipid11 v1.0 (GAFF c3-c3-c3-c3)
+LcA     LcA     LcA     LcA     9       180.0   1.046           2       ; added by Kri ; from Madej2015;          SCEE=1.2 SCNB=2.0 Lipid11 v1.0 (GAFF c3-c3-c3-c3)
+LcA     LcA     LcA     LcA     9       180.0   0.8368          1       ; added by Kri ; from Madej2015;          SCEE=1.2 SCNB=2.0 Lipid11 v1.0 (GAFF c3-c3-c3-c3)
+LcA     LcA     LcA     LcB     9       0.0     0.65103         3       ; added by Kri ; from Madej2015;          SCEE=1.2 SCNB=2.0 Lipid11 v1.0 (GAFF X -c3-c3-X )
+LcA     LcA     LcA     LcD      9       180.000 1.30206         1       ; added by Kri ; from Madej2015;          SCEE=1.2 SCNB=2.0 Lipid14 CHL  (Lipid14 LcD-LcD-LcD-LcD)
+LcA     LcA     LcA     LcD      9       180.000 -0.515887       2       ; added by Kri ; from Madej2015;          SCEE=1.2 SCNB=2.0 Lipid14 CHL  (Lipid14 LcD-LcD-LcD-LcD)
+LcA     LcA     LcA     LcD      9       0.000   0.480742        3       ; added by Kri ; from Madej2015;          SCEE=1.2 SCNB=2.0 Lipid14 CHL  (Lipid14 LcD-LcD-LcD-LcD)
+LcA     LcA     LcA     LcD      9       0.000   -0.920062       4       ; added by Kri ; from Madej2015;          SCEE=1.2 SCNB=2.0 Lipid14 CHL  (Lipid14 LcD-LcD-LcD-LcD)
+LcA     LcA     LcA     LcD      9       0.000   0.907928        5       ; added by Kri ; from Madej2015;          SCEE=1.2 SCNB=2.0 Lipid14 CHL  (Lipid14 LcD-LcD-LcD-LcD)
+LcA     LcA     LcA     LhA     9       0.0     0.66944         3       ; added by Kri ; from Madej2015;          SCEE=1.2 SCNB=2.0 Lipid11 v1.0 (GAFF c3-c3-c3-hc)
+LcA     LcA     LcA     LoH     9       0.0     0.65103         3       ; added by Kri ; from Madej2015;          SCEE=1.2 SCNB=2.0 Lipid11 v1.0 (GAFF X -c3-c3-X )
+LcA     LcA     LcB     LcA     9       0.0     0               2       ; added by Kri ; from Madej2015;          SCEE=1.2 SCNB=2.0 Lipid11 v1.0 (GAFF X -c3-c2-X )
+LcA     LcA     LcB     LcB     9       0.0     0               2       ; added by Kri ; from Madej2015;          SCEE=1.2 SCNB=2.0 Lipid11 v1.0 (GAFF X -c3-c2-X )
+LcA     LcA     LcB     LhB      9       0.0     0               2       ; added by Kri ; from Madej2015;          SCEE=1.2 SCNB=2.0 Lipid11 v1.0 (GAFF X -c3-c2-X )
+LcA     LcA     LcD      LcD      9       180.000 1.30206         1       ; added by Kri ; from Madej2015;          SCEE=1.2 SCNB=2.0 Lipid14 CHL  (Lipid14 LcD-LcD-LcD-LcD)
+LcA     LcA     LcD      LcD      9       180.000 -0.515887       2       ; added by Kri ; from Madej2015;          SCEE=1.2 SCNB=2.0 Lipid14 CHL  (Lipid14 LcD-LcD-LcD-LcD)
+LcA     LcA     LcD      LcD      9       0.000   0.480742        3       ; added by Kri ; from Madej2015;          SCEE=1.2 SCNB=2.0 Lipid14 CHL  (Lipid14 LcD-LcD-LcD-LcD)
+LcA     LcA     LcD      LcD      9       0.000   -0.920062       4       ; added by Kri ; from Madej2015;          SCEE=1.2 SCNB=2.0 Lipid14 CHL  (Lipid14 LcD-LcD-LcD-LcD)
+LcA     LcA     LcD      LcD      9       0.000   0.907928        5       ; added by Kri ; from Madej2015;          SCEE=1.2 SCNB=2.0 Lipid14 CHL  (Lipid14 LcD-LcD-LcD-LcD)
+LcA     LcA     LcD      LhL      9       0.0     0.66944         3       ; added by Kri ; from Madej2015;          SCEE=1.2 SCNB=2.0 Lipid14 CHL  (GAFF c3-c3-c3-hc)
+LcA     LcA     LoH     LhO     9       0.0     0.66944         3       ; added by Kri ; from Madej2015;          SCEE=1.2 SCNB=2.0 Lipid11 v1.0 (GAFF c3-c3-oh-ho)
+LcA     LcA     LoH     LhO     9       0.0     1.046           1       ; added by Kri ; from Madej2015;          SCEE=1.2 SCNB=2.0 Lipid11 v1.0 (GAFF c3-c3-oh-ho)
+LcA     LcB     LcA     LhA     9       0.0     0               2       ; added by Kri ; from Madej2015;          SCEE=1.2 SCNB=2.0 Lipid11 v1.0 (GAFF X -c3-c2-X )
+LcA     LcB     LcB     LcA     9       180.0   27.8236         2       ; added by Kri ; from Madej2015;          SCEE=1.2 SCNB=2.0 Lipid11 v1.0 (GAFF c3-c2-c2-c3)
+LcA     LcB     LcB     LcA     9       180.0   7.9496          1       ; added by Kri ; from Madej2015;          SCEE=1.2 SCNB=2.0 Lipid11 v1.0 (GAFF c3-c2-c2-c3)
+LcA     LcB     LcB     LhB      9       180.000 27.8236         2       ; added by Kri ; from Madej2015;          SCEE=1.2 SCNB=2.0 Lipid11 v1.0 (GAFF X -c2-c2-X )
+LcB     LcA     LcA     LhA     9       0.0     0.65103         3       ; added by Kri ; from Madej2015;          SCEE=1.2 SCNB=2.0 Lipid11 v1.0 (GAFF X -c3-c3-X )
+LcB     LcA     LcA     LoH     9       0.0     0.65103         3       ; added by Kri ; from Madej2015;          SCEE=1.2 SCNB=2.0 Lipid11 v1.0 (GAFF X -c3-c3-X )
+LcB     LcB     LcA     LhA     9       180.0   1.58992         3       ; added by Kri ; from Madej2015;          SCEE=1.2 SCNB=2.0 Lipid11 v1.0 (GAFF hc-c3-c2-c2)
+LcB     LcB     LcA     LhA     9       0.0     4.8116          1       ; added by Kri ; from Madej2015;          SCEE=1.2 SCNB=2.0 Lipid11 v1.0 (GAFF hc-c3-c2-c2)
+LcB     LcA     LcA     LhE      9       0.0     0.65103         3       ; added by Kri ; from Madej2015;          SCEE=1.2 SCNB=2.0 Lipid11 v1.0 (GAFF X -c3-c3-X )
+LcD      LcD      LcD      LcA     9       180.000 1.30206         1       ; added by Kri ; from Madej2015;          SCEE=1.2 SCNB=2.0 Lipid14 CHL  (Lipid14 LcD-LcD-LcD-LcD)
+LcD      LcD      LcD      LcA     9       180.000 -0.515887       2       ; added by Kri ; from Madej2015;          SCEE=1.2 SCNB=2.0 Lipid14 CHL  (Lipid14 LcD-LcD-LcD-LcD)
+LcD      LcD      LcD      LcA     9       0.000   0.480742        3       ; added by Kri ; from Madej2015;          SCEE=1.2 SCNB=2.0 Lipid14 CHL  (Lipid14 LcD-LcD-LcD-LcD)
+LcD      LcD      LcD      LcA     9       0.000   -0.920062       4       ; added by Kri ; from Madej2015;          SCEE=1.2 SCNB=2.0 Lipid14 CHL  (Lipid14 LcD-LcD-LcD-LcD)
+LcD      LcD      LcD      LcA     9       0.000   0.907928        5       ; added by Kri ; from Madej2015;          SCEE=1.2 SCNB=2.0 Lipid14 CHL  (Lipid14 LcD-LcD-LcD-LcD)
+LcD      LcD      LcA     LhA     9       0.0     0.66944         3       ; added by Kri ; from Madej2015;          SCEE=1.2 SCNB=2.0 Lipid14 CHL  (GAFF c3-c3-c3-hc)
+LcD      LcA     LcA     LhA     9       0.0     0.66944         3       ; added by Kri ; from Madej2015;          SCEE=1.2 SCNB=2.0 Lipid14 CHL  (GAFF c3-c3-c3-hc)
+LcA     LcD      LcD      LhL      9       0.0     0.66944         3       ; added by Kri ; from Madej2015;          SCEE=1.2 SCNB=2.0 Lipid14 CHL  (GAFF c3-c3-c3-hc)
+LhA     LcA     LcA     LhA     9       0.0     0.6276          3       ; added by Kri ; from Madej2015;          SCEE=1.2 SCNB=2.0 Lipid11 v1.0 (GAFF hc-c3-c3-hc)
+LhA     LcA     LcA     LhE      9       0.0     0.65103         3       ; added by Kri ; from Madej2015;          SCEE=1.2 SCNB=2.0 Lipid11 v1.0 (GAFF X -c3-c3-X )
+LhA     LcA     LcA     LoH     9       0.0     0               3       ; added by Kri ; from Madej2015;          SCEE=1.2 SCNB=2.0 Lipid11 v1.0 (GAFF hc-c3-c3-oh)
+LhA     LcA     LcA     LoH     9       0.0     1.046           1       ; added by Kri ; from Madej2015;          SCEE=1.2 SCNB=2.0 Lipid11 v1.0 (GAFF hc-c3-c3-oh)
+LhA     LcA     LcB     LhB      9       0.0     0               2       ; added by Kri ; from Madej2015;          SCEE=1.2 SCNB=2.0 Lipid11 v1.0 (GAFF X -c3-c2-X )
+LhA     LcA     LcD      LhL      9       0.0     0.6276          3       ; added by Kri ; from Madej2015;          SCEE=1.2 SCNB=2.0 Lipid14 CHL  (GAFF hc-c3-c3-hc)
+LhE      LcA     LoH     LhO     9       0.0     2.092           3       ; added by Kri ; from Madej2015;          SCEE=1.2 SCNB=2.0 Lipid11 v1.0 (GAFF X -c3-oh-X )
+LcA     LcA     LcA     LhE     9       0.0     0.65103         3       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid11  v1.0 (GAFF X -c3-c3-X )
+LcA     LcA     LcA     LoS     9       0.0     0.65103         3       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid11  v1.0 (GAFF X -c3-c3-X )
+LcA     LcA     LcA     LoT     9       0.0     0.65103         3       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid11  v1.0 (GAFF X -c3-c3-X )
+LcA     LcA     LnA     LcA     9       0.0     0.65103         3       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid11  v1.0 (GAFF X -c3-n4-X )
+LcA     LcA     LnA     LhN     9       0.0     0.65103         3       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid11  v1.0 (GAFF X -c3-n4-X )
+LcA     LcA     LoT     LpA     9       0.0     1.60373         3       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid11  v1.0 (GAFF X -c3-os-X )
+LcA     LnA     LcA     LhX     9       0.0     0.65103         3       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid11  v1.0 (GAFF X -c3-n4-X )
+LcA     LoS     LcC     LoS     9       180.0   11.29680        2       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid11  v1.0 (GAFF X -c -os-X )
+LcA     LoT     LpA     LoP     9       0.0     3.34720         2       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid11  v1.0 (GAFF X -os-p5-X )
+LcA     LoT     LpA     LoT     9       0.0     1.04600         3       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid11  v1.0 (GAFF c3-os-p5-os)
+LcA     LoT     LpA     LoT     9       0.0     5.02080         2       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid11  v1.0 (GAFF c3-os-p5-os)
+LcB     LcB     LcD     LcD     9       0.000   1.44934         1       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid14  v2.10 (paramfit)
+LcB     LcB     LcD     LcD     9       0.000   -2.33342        2       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid14  v2.10 (paramfit)
+LcB     LcB     LcD     LcD     9       0.000   -1.22173        3       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid14  v2.10 (paramfit)
+LcB     LcB     LcD     LcD     9       0.000   -0.39455        4       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid14  v2.10 (paramfit)
+LcB     LcB     LcD     LcD     9       0.000   0.09456         5       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid14  v2.10 (paramfit)
+LcB     LcD     LcD     LcD     9       180.000 0.10502         1       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid14  v2.10 (paramfit)
+LcB     LcD     LcD     LcD     9       180.000 0.02259         2       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid14  v2.10 (paramfit)
+LcB     LcD     LcD     LcD     9       0.000   0.83973         3       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid14  v2.10 (paramfit)
+LcB     LcD     LcD     LcD     9       0.000   0.87990         4       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid14  v2.10 (paramfit)
+LcB     LcD     LcD     LcD     9       0.000   0.33932         5       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid14  v2.10 (paramfit)
+LcB     LcD     LcD     LhL     9       0.0     0.65103         3       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid14  v2.0 (GAFF X -c3-c3-X )
+LcC     LcD     LcD     LhL     9       0.0     0.65103         3       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid14  v2.0 (GAFF X -c3-c3-X )
+LcC     LoS     LcA     LcA     9       0.0     1.60247         3       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid11  v1.0 (GAFF c3-c3-os-c )
+LcC     LoS     LcA     LcA     9       180.0   3.34720         1       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid11  v1.0 (GAFF c3-c3-os-c )
+LcC     LoS     LcA     LhE     9       0.0     1.60373         3       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid11  v1.0 (GAFF X -c3-os-X )
+LcD     LcB     LcB     LcD     9       180.000 1.28574         1       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid14  v2.10 (paramfit)
+LcD     LcB     LcB     LcD     9       180.000 16.75734        2       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid14  v2.10 (paramfit)
+LcD     LcB     LcB     LcD     9       0.000   0.83262         3       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid14  v2.10 (paramfit)
+LcD     LcB     LcB     LcD     9       0.000   1.35645         4       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid14  v2.10 (paramfit)
+LcD     LcB     LcB     LcD     9       0.000   -0.17364        5       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid14  v2.10 (paramfit)
+LcD     LcB     LcB     LhB     9       180.0   27.82360        2       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid14  v2.0 (GAFF X -c2-c2-X )
+LcD     LcC     LoS     LcA     9       180.000 11.29680        2       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid11  v1.0 (GAFF X -c -os-X )
+LcD     LcD     LcC     LoC     9       180.000 -3.81162        1       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid14  v2.10 (paramfit)
+LcD     LcD     LcC     LoC     9       180.000 3.08863         2       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid14  v2.10 (paramfit)
+LcD     LcD     LcC     LoC     9       0.000   1.37654         3       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid14  v2.10 (paramfit)
+LcD     LcD     LcC     LoC     9       0.000   -2.45350        4       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid14  v2.10 (paramfit)
+LcD     LcD     LcC     LoC     9       0.000   0.55773         5       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid14  v2.10 (paramfit)
+LcD     LcD     LcC     LoS     9       180.000 -0.51296        1       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid14  v2.10 (paramfit)
+LcD     LcD     LcC     LoS     9       180.000 -0.85939        2       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid14  v2.10 (paramfit)
+LcD     LcD     LcC     LoS     9       0.000   0.75396         3       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid14  v2.10 (paramfit)
+LcD     LcD     LcC     LoS     9       0.000   2.13677         4       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid14  v2.10 (paramfit)
+LcD     LcD     LcC     LoS     9       0.000   0.56693         5       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid14  v2.10 (paramfit)
+LcD     LcD     LcD     LcC     9       0.0     0.65103         3       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid11  v1.0 (GAFF )
+LcD     LcD     LcD     LcD     9       180.000 1.30206         1       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid14  v2.10 (paramfit)
+LcD     LcD     LcD     LcD     9       180.000 -0.51589        2       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid14  v2.10 (paramfit)
+LcD     LcD     LcD     LcD     9       0.000   0.48074         3       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid14  v2.10 (paramfit)
+LcD     LcD     LcD     LcD     9       0.000   -0.92006        4       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid14  v2.10 (paramfit)
+LcD     LcD     LcD     LcD     9       0.000   0.90793         5       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid14  v2.10 (paramfit)
+LcD     LcD     LcD     LhL     9       0.0     0.66944         3       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid14  v2.0 (GAFF c3-c3-c3-hc)
+LhB     LcB     LcB     LhB     9       180.0   27.82360        2       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid11  v1.0 (GAFF X -c2-c2-X )
+LhE     LcA     LcA     LhE     9       0.0     0.65103         3       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid11  v1.0 (GAFF X -c3-c3-X )
+LhE     LcA     LcA     LnA     9       0.0     0.65103         3       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid11  v1.0 (GAFF X -c3-c3-X )
+LhE     LcA     LcA     LhX     9       0.0     0.65103         3       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid11  v1.0 (GAFF X -c3-c3-X )
+LhE     LcA     LcA     LoS     9       0.0     0               3       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid11  v1.0 (GAFF h1-c3-c3-os)
+LhE     LcA     LcA     LoS     9       0.0     1.04600         1       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid11  v1.0 (GAFF h1-c3-c3-os)
+LhE     LcA     LcA     LoT     9       0.0     0               3       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid11  v1.0 (GAFF h1-c3-c3-os)
+LhE     LcA     LcA     LoT     9       0.0     1.04600         1       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid11  v1.0 (GAFF h1-c3-c3-os)
+LhE     LcA     LoT     LpA     9       0.0     1.60373         3       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid11  v1.0 (GAFF X -c3-os-X )
+LhB     LcB     LcD     LcD     9       0.0     0               2       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid14  v2.0 (GAFF X -c3-c2-X )
+LhB     LcB     LcD     LhL     9       0.0     0               2       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid14  v2.0 (GAFF X -c3-c2-X )
+LhL     LcD     LcB     LcB     9       180.0   1.58992         3       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid14  v2.0 (GAFF hc-c3-c2-c2)
+LhL     LcD     LcB     LcB     9       0.0     4.81160         1       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid14  v2.0 (GAFF hc-c3-c2-c2)
+LhL     LcD     LcC     LoC     9       0.0     3.34720         1       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid14  v2.0 (GAFF hc-c3-c -o )
+LhL     LcD     LcC     LoC     9       180.0   0.33472         3       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid14  v2.0 (GAFF hc-c3-c -o )
+LhL     LcD     LcC     LoS     9       180.0   0               2       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid14  v2.0 (GAFF X -c -c3-X )
+LhL     LcD     LcD     LhL     9       0.0     0.62760         3       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid14  v2.0 (GAFF hc-c3-c3-hc)
+LhN     LnA     LcA     LhX     9       0.0     0.65103         3       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid11  v1.0 (GAFF X -c3-n4-X )
+LhX     LcA     LcA     LoT     9       0.0     0.65103         3       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid11  v1.0 (GAFF X -c3-c3-X )
+LnA     LcA     LcA     LoT     9       0.0     0.65103         3       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid11  v1.0 (GAFF X -c3-c3-X )
+LcA     LoS     LcC     LoC     9       180.0   11.29680        2       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid11  v1.0 (GAFF c3-os-c -o )
+LcA     LoS     LcC     LoC     9       180.0   5.85760         1       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid11  v1.0 (GAFF c3-os-c -o )
+LoS     LcA     LcA     LoS     9       0.0     0.60250         3       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid11  v1.0 (GAFF os-c3-c3-os)
+LoS     LcA     LcA     LoS     9       0.0     4.91620         2       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid11  v1.0 (GAFF os-c3-c3-os)
+LoT     LcA     LcA     LoS     9       0.0     0.60250         3       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid11  v1.0 (GAFF os-c3-c3-os)
+LoT     LcA     LcA     LoS     9       0.0     4.91620         2       ; added by Kri ;        SCEE=1.2 SCNB=2.0 Lipid11  v1.0 (GAFF os-c3-c3-os)
+
+LcD  LoC  LcC  LoS       4      180.0      43.9320     2    ; added by Kri ; Lipid14  v2.0 ester improper (GAFF X -X -c -o )
+LcB LcD  LcB LhB       4      180.0      4.60240     2    ; added by Kri ; Lipid14  v2.0 aliphatic improper (GAFF c2-c3-c2-ha - default)
+LcB LcA LcB LhB       4      180.0      4.60240     2    ; added by Kri ; copy of Lipid14  v2.0 aliphatic improper (GAFF c2-c3-c2-ha - default) for cholesterol
+LcA LcB LcB LcA      4      180.0      4.60240     2    ; added by Kri ;Lipid14chl from Madej2015 ; SCEE=1.2 SCNB=2.0 Lipid11 v1.0 (GAFF c3-c2-c2-c3)
