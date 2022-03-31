@@ -3,28 +3,29 @@ from data.Tools import prepare_dirs, prepare_protein_topology, aligment_protein,
 from data.Tools import prepare_topology, add_solvent, add_ions, prepare_output
 from optparse import OptionParser
 import data.Bilayer as bl
-import data.Input as ip
+import data.Configuration as cf
 import data.Protein as pt
 
 
 def parse_proteins(file_input="input.json", prot_stat=False, terminal=False,
                    to_convert=False, skip_symmetry=False, stdin=""):
 
-    conf = ip.Input(file_input)
+    conf = cf.Configuration(file_input, prot_stat=prot_stat, terminal=terminal,
+                            to_convert=to_convert, skip_symmetry=skip_symmetry, stdin=stdin)
     bilayer = bl.Bilayer(conf.template, conf.lipids, conf.additives)
-    graphs = create_graphs(bilayer, skip_symmetry) if to_convert else dict()
+    graphs = create_graphs(bilayer, conf) if conf.to_convert else dict()
 
     for peptide in conf.peptides:
         protein = pt.Protein(peptide)
 
         prepare_dirs(protein, bilayer, conf)
-        protein_gro, protein_top = prepare_protein_topology(protein, prot_stat, terminal, stdin)
+        protein_gro, protein_top = prepare_protein_topology(protein, conf)
         protein_atoms = aligment_protein(protein_gro, bilayer)
         merged_gro = merge_gros(protein_atoms, bilayer, graphs)
-        merged_top = prepare_topology(protein_top, bilayer, to_convert)
-        water_gro, water_top = add_solvent(merged_gro, merged_top, bilayer, to_convert)
-        ions_gro, ions_top = add_ions(water_gro, water_top, to_convert)
-        prepare_output(ions_gro, ions_top, protein, bilayer, conf, to_convert)
+        merged_top = prepare_topology(protein_top, bilayer, conf)
+        water_gro, water_top = add_solvent(merged_gro, merged_top, bilayer, conf)
+        ions_gro, ions_top = add_ions(water_gro, water_top, conf)
+        prepare_output(ions_gro, ions_top, protein, bilayer, conf)
 
 
 def main():
@@ -43,9 +44,8 @@ def main():
                       help="Autoselect topology parameters")
     (options, args) = parser.parse_args()
 
-    parse_proteins(file_input=options.file_input, prot_stat=options.prot_stat,
-                   terminal=options.terminal, to_convert=options.to_convert,
-                   skip_symmetry=options.skip_symmetry, stdin=options.stdin)
+    parse_proteins(file_input=options.file_input, prot_stat=options.prot_stat, terminal=options.terminal,
+                   to_convert=options.to_convert, skip_symmetry=options.skip_symmetry, stdin=options.stdin)
 
 
 if __name__ == "__main__":

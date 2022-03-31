@@ -45,10 +45,10 @@ def prepare_dirs(protein, bilayer, conf):
     os.chdir("build/scratch")
 
 
-def prepare_protein_topology(protein, prot_stat, terminal, stdin):
+def prepare_protein_topology(protein, conf):
     gmx.editconf(f=protein.get_base_name(), o=protein.get_base_name(), resnr=1)
     gmx.pdb2gmx(f=protein.get_base_name(), o="1protein.gro", ignh=True, merge="all",
-                renum=True, inter=prot_stat, ter=terminal, input=stdin)
+                renum=True, inter=conf.prot_stat, ter=conf.terminal, input=conf.stdin)
 
     rewrite_file("topol.top", "1protein.top", {"[ system ]": "", "[ molecules ]": ""})
     return "1protein.gro", "1protein.top"
@@ -76,13 +76,13 @@ def merge_gros(protein_atoms, bilayer, graphs):
     return "2merged-fixed.gro"
 
 
-def prepare_topology(protein_top, bilayer, to_convert):
+def prepare_topology(protein_top, bilayer, conf):
     with open(protein_top, "r") as file_top:
         top_gromacs = file_top.readlines()
 
     lipids = bilayer.get_residues()
 
-    if to_convert:
+    if conf.to_convert:
         top_gromacs.insert(21, """#include "toppar/ffbonded.itp"\n""")
         os.system("cp ../../tools/converter/ffbonded.itp toppar/.")
 
@@ -105,11 +105,11 @@ def prepare_topology(protein_top, bilayer, to_convert):
     return "2merged-fixed.top"
 
 
-def add_solvent(merged_gro, merged_top, bilayer, to_convert):
+def add_solvent(merged_gro, merged_top, bilayer, conf):
     gmx.solvate(cp=merged_gro, cs="spc216.gro", p=merged_top, o="3system_water.gro")
 
     universe = mda.Universe("3system_water.gro")
-    z1, z2 = bilayer.get_surface(universe, to_convert)
+    z1, z2 = bilayer.get_surface(universe, conf.to_convert)
     water_bilayer = universe.select_atoms(f"(prop z >= {z1} and prop z <= {z2}) and resname SOL")
 
     water_removed = universe.select_atoms("not byres (group water_bilayer)", water_bilayer=water_bilayer)
@@ -128,10 +128,10 @@ def add_solvent(merged_gro, merged_top, bilayer, to_convert):
     return "3system_water.gro", "3system_water.top"
 
 
-def add_ions(water_gro, water_top, to_convert):
+def add_ions(water_gro, water_top, conf):
     gmx.grompp(f="generic.mdp", c=water_gro, p=water_top, o="4ions")
 
-    if to_convert:
+    if conf.to_convert:
         gmx.genion(s="4ions.tpr", p=water_top, o="4system_ions.gro", conc=0.150, neutral=True, input="SOL")
     else:
         gmx.genion(s="4ions.tpr", p=water_top, o="4system_ions.gro", conc=0.150, neutral=True, input="SOL",
@@ -140,14 +140,14 @@ def add_ions(water_gro, water_top, to_convert):
     return "4system_ions.gro", "3system_water.top"
 
 
-def prepare_output(system_gro, system_top, protein, bilayer, conf, to_convert):
+def prepare_output(system_gro, system_top, protein, bilayer, conf):
     os.system(f"cp -r ../../tools/mdp ../{protein.get_stem()}")
     os.system(f"cp {system_gro} ../{protein.get_stem()}/step5_input.gro")
     os.system(f"cp {system_top} ../{protein.get_stem()}/topol.top")
     os.system(f"cp posre.itp ../{protein.get_stem()}/")
     os.system(f"mkdir ../{protein.get_stem()}/toppar")
 
-    if not to_convert:
+    if not conf.to_convert:
         os.system(f"cp -r charmm36-jul2021.ff ../{protein.get_stem()}/")
     else:
         os.system(f"cp toppar/ffbonded.itp ../{protein.get_stem()}/toppar/.")

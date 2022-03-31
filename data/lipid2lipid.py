@@ -4,7 +4,7 @@ import numpy as np
 import os
 
 
-def create_graphs(bilayer, skip_symmetry):
+def create_graphs(bilayer, conf):
     graphs = dict()
 
     for residue in bilayer.get_residues():
@@ -20,13 +20,13 @@ def create_graphs(bilayer, skip_symmetry):
         bonds1 = [[bond.atoms.ids[0], bond.atoms.ids[1]] for bond in itp1.bonds]
         bonds2 = [[bond.atoms.ids[0], bond.atoms.ids[1]] for bond in itp2.bonds]
 
-        G1 = nx.Graph(bonds1)
-        G2 = nx.Graph(bonds2)
+        graph1 = nx.Graph(bonds1)
+        graph2 = nx.Graph(bonds2)
 
-        ismags = nx.isomorphism.ISMAGS(G1, G2)
+        ismags = nx.isomorphism.ISMAGS(graph1, graph2)
         largest_common_subgraph = list(ismags.largest_common_subgraph())
 
-        if len(largest_common_subgraph) > 1 and not skip_symmetry:
+        if len(largest_common_subgraph) > 1 and not conf.skip_symmetry:
             print("Detected symmetry in molecular graph. Aborting force field conversion.")
             exit()
 

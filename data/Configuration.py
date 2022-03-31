@@ -2,8 +2,10 @@ import json
 import os
 
 
-class Input:
-    def __init__(self, file_input):
+class Configuration:
+    def __init__(self, file_input, **kwargs):
+        self.__dict__.update(kwargs)
+
         with open(f"build/{file_input}", "r") as file_in:
             input_json = json.load(file_in)
 
