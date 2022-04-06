@@ -31,15 +31,15 @@ def parse_proteins(file_input="input.json", prot_stat=False, terminal=False,
 def main():
     parser = OptionParser()
     parser.add_option("-f", "--file_input", dest="file_input",
-                      help="Input file name (default input.json)")
+                      help="Input file name (default input.json)", default="input.json")
     parser.add_option("-p", "--prot_stat", action="store_true", dest="prot_stat",
-                      help="Assign protonation states (default false)")
+                      help="Assign protonation states (default false)", default=False)
     parser.add_option("-t", "--terminal", action="store_true", dest="terminal",
-                      help="Perform termini modifications (default false)")
+                      help="Perform termini modifications (default false)", default=False)
     parser.add_option("-c", "--convert", action="store_true", dest="to_convert",
-                      help="Perform membrane topology conversion (default false)")
+                      help="Perform membrane topology conversion (default false)", default=False)
     parser.add_option("-s", "--skip_symmetry", action="store_true", dest="skip_symmetry",
-                      help="Skip molecular symmetry in topology conversion (default false")
+                      help="Skip molecular symmetry in topology conversion (default false", default=False)
     parser.add_option("-o", "--stdin", dest="stdin",
                       help="Autoselect topology parameters")
     (options, args) = parser.parse_args()
