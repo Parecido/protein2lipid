@@ -83,7 +83,7 @@ parse_proteins(file_input="input.json")
 
 #### Features
 
-The protein2lipid supports basic protein adjustments such as termini modifications and determination of protonation states. The auto-generation of protein topology might be controlled by --stdin option.
+The protein2lipid supports basic protein adjustments such as termini modifications and protonation states determination. The auto-generation of protein topology might be controlled by --stdin option.
 
 In order to perform topology conversion (by default between CHARMM36 and Lipid14 force fields) use --convert. We included CHL1, DLPC, DMPC, DOPC, DPPC, DPPE, POPC, and POPE Lipid14 topology files. If you want to convert between other force fields, you should provide .itp files with the same name as used in template file and place it inside tools/converter folder.
 
@@ -99,6 +99,10 @@ python protein2lipid.py -h
 Michal Michalski ([Git](https://github.com/Parecido), [LinkedIn](https://www.linkedin.com/in/michal-michalski95), [Orcid](https://orcid.org/0000-0001-6969-2074), [ResearchGate](https://www.researchgate.net/profile/Michal-Michalski-5))
 
 ## Version History
+
+* Version 1.1
+    * Update CHARMM36M force field files
+    * Load all pdb files by default
 
 * Version 1.0
     * Initial release
