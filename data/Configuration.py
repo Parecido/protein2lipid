@@ -1,3 +1,4 @@
+import glob
 import json
 import os
 
@@ -9,10 +10,13 @@ class Configuration:
         with open(f"build/{file_input}", "r") as file_in:
             input_json = json.load(file_in)
 
-        for option in ["gromacs", "bilayer", "peptides"]:
+        for option in ["gromacs", "bilayer"]:
             if option not in input_json:
                 print(f"Missing {option} setup in input file. Please validate input file.")
                 exit()
+
+        if "peptides" not in input_json:
+            self.peptides = [os.path.basename(file_pdb) for file_pdb in glob.glob("build/*.pdb")]
 
         for key, value in input_json.items():
             if key == "gromacs":
